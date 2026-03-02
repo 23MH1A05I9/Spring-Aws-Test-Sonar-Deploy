@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CseController {
-
-    @GetMapping("/cseadd")
-    public int addCSE(@RequestParam int a, @RequestParam int b) {
-        return a + b;
-    }
+	@GetMapping("/cseadd")
+	public int addCSE(@RequestParam int a, @RequestParam int b) {
+		return a + b;
+	}
 }
